@@ -14,11 +14,3 @@ public class This {
     }
 }
 
-public class ThisExample(){
-    public static void main(String[] args) {
-        Birthdat bDay = new Birthday();
-        bDay.setyear(2000);
-        System.out.println(bDay);
-        bDay.printThis();
-    }
-}
