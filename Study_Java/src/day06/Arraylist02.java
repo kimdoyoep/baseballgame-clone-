@@ -12,6 +12,6 @@ public class Arraylist02 {
         for(int i = 0; i < size; i++){//유효한 값이 저장된 배열 요소 개수만큼 반복문 실행
             System.out.println(data[i]);
         }
-        
+
     }
 }
