@@ -1,4 +1,6 @@
-package day07;
+package day08;
+
+import day08.Customer;
 
 public class VIP extends Customer { //Customer클래스 상속받음. 겹치는 기능을 다시 적지 않아서 편해짐
 
@@ -15,6 +17,9 @@ public class VIP extends Customer { //Customer클래스 상속받음. 겹치는 
         customerGrade = "VIP";
         bonusRatio = 0.05;
         saleRatio = 0.1;
+
+    }
+    public VIP(int i, String 김유신, int i2){
 
     }
 

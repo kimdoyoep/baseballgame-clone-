@@ -1,4 +1,4 @@
-package day07;
+package day08;
 
 public class Customer {
     protected int customerID;
@@ -10,6 +10,11 @@ public class Customer {
     public Customer() {
         customerGrade = "SILVER";
         bonusRatio = 0.01;
+    }
+
+
+
+    public Customer(int i, String 이순신) {
     }
 
     public int calcPrice(int price) { // calcPrice는 제품에 대해 지불해야 하는 금액을 계\산하여 반환합니다.

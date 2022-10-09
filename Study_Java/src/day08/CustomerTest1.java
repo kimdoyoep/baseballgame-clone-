@@ -1,4 +1,7 @@
-package day07;
+package day08;
+
+import day08.Customer;
+import day08.VIP;
 
 public class CustomerTest1 extends Customer {
 
