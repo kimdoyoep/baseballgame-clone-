@@ -1,6 +1,6 @@
 package day10;
 
-import day09.Human;
+
 
 import java.util.ArrayList;
 
@@ -34,24 +34,3 @@ public class Downcasting {
     }
 }
 
-public class AnimalTest {
-    ArrayList<Animal> aniList = new ArrayList<Animal>();
-
-    public static void main(String[] args) {
-        AnimalTest aTest = new AnimalTest();
-        aTest.addAnimal();
-        System.out.println("원래 형으로 다운 캐스팅");
-        aTest.testCasting();
-
-    }
-
-    public void addAnimal() {
-        aniList.add(new Human());
-        aniList.add(new Tiger());
-        aniList.add(new Eagle());
-
-        for(Animal ani : aniList)
-
-
-
-}
