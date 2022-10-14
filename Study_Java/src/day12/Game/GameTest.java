@@ -1,4 +1,4 @@
-package Game;
+package day12.Game;
 
 public class GameTest {
     public static void main(String[] args) {

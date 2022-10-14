@@ -1,4 +1,4 @@
-package Game;
+package day12.Game;
 
 public class AdvanceLevel extends PlayerLevel {
 
