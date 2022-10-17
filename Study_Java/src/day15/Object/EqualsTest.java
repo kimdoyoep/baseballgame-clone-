@@ -24,7 +24,7 @@ public class EqualsTest {
         else
             System.out.println("studentLee2 와 studentSang은 물리적으로 다를 수 밖에 없습니다.");
 
-        if(studentLee.equals(studentSang))
+        if(studentLee.equals(studentSang)) // 주소를 비교함 but 재정의를 통해 논리적으로 같은 인스턴스인지 확인하도록 구현 가능.
             System.out.println("studentLee 와 studentSang은 논리적으로 동일합니다");
         else
             System.out.println("studentLee 와 studentSang은 논리적으로 다릅니다.");
