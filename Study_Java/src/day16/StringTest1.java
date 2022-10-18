@@ -11,7 +11,7 @@ public class StringTest1 {
         String str3 = "abc";
         String str4 = "abc";
 
-        System.out.println(str3 == str4);
+        System.out.println(str3 == str4);//상수 풀에 저장되어 true가 출력됨.
         System.out.println(str3.equals(str4));
 
     }
