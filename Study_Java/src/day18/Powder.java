@@ -1,6 +1,6 @@
 package day18;
 
-public class Powder {
+public class Powder extends Material{
     public void doPrinting(){
         System.out.println("Powder 재료로 출력합니다.");
     }
