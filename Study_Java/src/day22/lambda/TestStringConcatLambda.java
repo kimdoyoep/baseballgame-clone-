@@ -1,4 +1,6 @@
-package day22;
+package day22.lambda;
+
+import day22.lambda.StringConcat;
 
 public class TestStringConcatLambda {
     public static void main(String[] args) {

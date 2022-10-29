@@ -1,4 +1,6 @@
-package day22;
+package day22.lambda;
+
+import day22.lambda.MyNumber;
 
 public class TestMyNumber {
     public static void main(String[] args) {

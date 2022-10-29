@@ -1,6 +1,8 @@
-package day22;
+package day22.lambda;
 
-public class StringConCatImpl implements StringConcat{
+import day22.lambda.StringConcat;
+
+public class StringConCatImpl implements StringConcat {
     
     @Override
     public void makeString(String s1, String s2){
