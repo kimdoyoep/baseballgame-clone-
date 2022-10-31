@@ -1,12 +1,11 @@
 package CloudStudingJava1000.Test05;
 
-public class Fork {
-    String ForkName;
+public class Noodle {
     int money;
 
     int Count;
 
-    public Fork(int Count){
+    public Noodle(int Count){
         this.Count = Count;
     }
 
@@ -15,7 +14,6 @@ public class Fork {
     }
 
     public void showInfo(){
-        System.out.println("돈가스" + " X " + Count + " = " + money*Count);
+        System.out.println("칼국수" + " x " + Count + " = " + money*Count);
     }
-
 }
