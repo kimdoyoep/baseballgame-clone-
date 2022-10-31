@@ -18,5 +18,6 @@ public class Alba {
 
         System.out.println(Price*time);
 
+
     }
 }
